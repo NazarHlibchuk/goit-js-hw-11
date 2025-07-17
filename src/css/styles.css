@@ -100,9 +100,6 @@ button:hover {
   display: none;
 }
 
-.loader.is-hidden {
-  display: none;
-}
 
 @keyframes spin {
   to {
