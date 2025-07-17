@@ -16,21 +16,47 @@ body {
 }
 
 .form {
+  justify-content: center;
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
 }
 
 input[type='text'] {
+  border: 1px solid #333;
   padding: 8px;
   width: 300px;
   font-size: 16px;
+  border-radius: 8px;
+  border-color: #808080;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input[type='text']:hover {
+  border: 1px solid #333;
+}
+
+input[type='text']:focus {
+  border-color: #4E75FF;
+  outline: none;
 }
 
 button {
   padding: 8px 16px;
   font-size: 16px;
   cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #6C8CFF;
+}
+
+.btn-search {
+  border: none;
+  background-color: #4E75FF;
+  border-radius: 8px;
 }
 
 .gallery {
